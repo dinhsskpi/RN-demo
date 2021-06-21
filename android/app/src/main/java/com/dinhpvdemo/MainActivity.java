@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.dinhpvdemo;
 
 import com.facebook.react.ReactActivity;
 
