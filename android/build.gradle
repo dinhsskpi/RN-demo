@@ -9,6 +9,9 @@ buildscript {
         ndkVersion = "20.1.5948944"
     }
     repositories {
+        maven {
+            url = "https://jcenter.bintray.com"
+        }
         google()  
         jcenter()
     }
@@ -21,6 +24,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {
+            url = "https://jcenter.bintray.com"
+        }
         jcenter()
         mavenLocal()
         maven {
